@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPF2-LIONHEART</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">  
+     <!-- java -->
+     <script src="JS/jquery-3.7.1.min.js"></script>      
+      <!-- slick -->
+      <!-- slick -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+     <script type="text/javascript">
+        $(document).ready(
+            function(){
+                $('.gamesSlide').slick({
+                    infinite: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    speed:1000,
+                    arrows:true
+                    });     
+                });
+       </script>
+</head>
+
+<body>
+ <header>
+     <div class="wrap flex between">
+            <ul class="logo">
+                <li>
+                    <a href="">
+                        <img src="img/logo.svg" alt="라이언하트 로고">
+                    </a>
+                </li>
+            </ul>
+            <ul class="menu flex">
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">GAMES</a></li>
+                <li><a href="">CAREER</a></li>
+                <li><a href="">IR</a></li>
+                <li><a href="">NEWS</a></li>
+            </ul>
+            <ul class="lang flex">
+                <li><a href="">KO</a></li>
+                <li><a class="en" href="">EN</a></li>
+            </ul>
+        </div>
+ </header>
+
+ <!-- 메인영역 -->
+ <main>
+    <section id="title">
+        <div>
+        <video style="width:100%; margin:0px" poster="images/visual01.jpg" autoplay="" loop="" playsinline="" muted="">            
+            <source src="img/movie2.mp4">
+        </video>
+        </div>
+            <div class="title_text">
+            <h1>최고를 위해 최고들이 모인 곳<span class="block"></span>
+                    라이온하트 스튜디오
+            </h1>
+            </div>    
+    </section>
+    <!-- NEWS -->
+    <section id="news" class="flex vh90">
+        <div class="wrap">
+            <div class="top flex between align-center">
+                <h2>
+                    <a href="" class="font50 bold">NEWS</a>
+                </h2>
+                <a class="border" href="">more</a>
+            </div>
+            <div class="flex">
+                <article>
+                    <a href="" class="font22">
+                            라이온하트 스튜디오, '2023년 대한민국 일자리 으뜸기업' 선정
+                            <p class="p">2023.09.06</p>
+                        <img src="img/thumb.png" alt="">
+                    </a>
+                </article>
+                <article>
+                        <a href="" class="font22">
+                            라이온하트 스튜디오, 홈페이지 리뉴얼 및 '프로젝트V' 원화 공개
+                            <p class="p">2023.06.22</p>
+                            <img src="img/thumb2.jpg" alt="">
+                        </a>
+
+                </article>
+                <article>                    
+                        <a href="" class="font22">
+                            라이온하트 스튜디오, 차기MMORPG '프로젝트Q' 콘셉트 원화 최초 공개
+                            <p class="p">2023.04.18</p>
+                            <img src="img/thumb3.png" alt="">
+                        </a>
+
+                </article>
+            </div>
+        </div>
+    </section>
+    <!-- GAMES -->
+   <section id="games" class="flex vh90 column">
+    <div class="top wrap flex between align-center">
+        <h2><a href="" class="font50 bold">GAMES</a></h2>
+        <a class="border" href="">more</a>
+    </div>
+    <div class="wrap flex center between">
+        <article>
+            <div>
+                <ul class="gamesSlide">
+                    <li class="slide1">
+                        <a href="">
+                            <img src="img/odin.png" alt="오딘">
+                            <h2 class="font34 bold">ODIN: VALHALLA RISING</h2>
+                            <p class="font17">북유럽 신화의 흥미로운 스토리와 한계를 뛰어 넘는 그래픽 선사하는 MMORPG의 정점</p>
+                        </a>
+                    </li>
+                    <li class="slide2">
+                        <a href="">
+                            <img src="img/games2.png" alt="">
+                            <h2 class="font34 bold">ODIN: VALHALLA RISING</h2>
+                            <p class="font17">북유럽 신화의 흥미로운 스토리와 한계를 뛰어 넘는 그래픽 선사하는 MMORPG의 정점</p>
+                        </a>
+                    </li>
+                    <li class="slide3">
+                        <a href="">
+                            <img src="img/games3.png" alt="">
+                            <h2 class="font34 bold">PROJECT C</h2>
+                            <p class="font17">애니메이션 풍 그래픽의 매력적인 캐릭터들을 성장시키는 수집형 육성 시뮬레이션 게임</p>
+                        </a>
+                    </li>
+                    <li class="slide4">
+                        <a href="">
+                            <img src="img/games4.jpg" alt="">
+                            <h2 class="font34 bold">PROJECT S</h2>
+                            <p class="font17">적에게서 아이템을 획득하는 "루팅"과 총싸움이 이루어지는 "슈팅"이 혼합된 루트 슈터 장르 게임</p>
+                        </a>
+                    </li>
+                    <li class="slide5">
+                        <a href="">
+                            <img src="img/games5.png" alt="">
+                            <h2 class="font34 bold">PROJECT Q</h2>
+                            <p class="font17">'ODIN:VALHALLA RISING'의 계보를 잇는 풀 3D 심리스 오픈월드 MMORPG</p>
+                        </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </article>
+    </div>
+    </section>
+
+    <!-- CARRER -->
+    <section id="carrer" class="flex vh90 column">
+        <div class="top wrap flex between align-center">
+            <h2><a href="" class="font50 bold">CARRER</a></h2>
+            <a class="border" href="">more</a>
+        </div>
+        <div class="wrap flex center between">
+            <article>
+                    <img src="img/career.png" alt="">
+                    <h2 class="font34 bold">채용 및 복지제도 소개</h2>
+                    <p class="font17">만족도 높은 근무 환경에서 멋진 게임을 함께 만들어 갈 최고의 인재들을 찾고 있습니다.</p>
+                </a>
+            </article>
+        </div>
+    </section>  
+ </main>
+
+ <!-- FOOTER -->
+ <footer>
+    <section id="footer" class="flex">
+        <div class="personal">
+            <img src="img/logo.svg" alt="">
+        </div>
+            <div class="foot flex between">
+                <p class="p">© Lionheart Studio Co., Ltd. All rights reserved.</p>
+                <div class="ppersonal flex">
+                    <a href="">개인정보처리방침</a> 
+                    <img src="https://www.lionhearts.co.kr/wp-content/themes/lionhearts/assets/images/icon/ico_youtube_white.svg" alt=""> 
+                    <img src="https://www.lionhearts.co.kr/wp-content/themes/lionhearts/assets/images/icon/ico_facebook_white.svg" alt="">  
+                </div>    
+            </div>
+    </section>
+ </footer>
+</body>
+</html>
